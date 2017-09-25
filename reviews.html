@@ -32,9 +32,12 @@
         <script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/www.trojanshooter.com\/","name":"San Francisco Wedding Photography - Bay Area Wedding Photographer","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.trojanshooter.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
 
         <script src="/js/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/utils.js"></script>
         <script> 
         $(function(){
-            $("#site-social").load("./social.html"); 
+            if(!isMobile()) {
+                $("#site-social").load("./social.html");
+            }
             $("#site-header").load("./header.html"); 
             $("#site-footer").load("./footer.html"); 
         });
