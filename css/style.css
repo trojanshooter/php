@@ -1,0 +1,152 @@
+/* Style for home page */
+.info-banner {
+    position: fixed;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    bottom: 30px;
+    left: 0%;
+    opacity: 0.8;
+}
+.info-banner a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.info-banner a:hover {
+	color: #aaa;
+}
+
+/* Styles for About page*/
+.about-banner {
+	position: relative;
+	font-size: 1.1em;
+	font-family: Arial, sans-serif;
+	margin: 100px 100px 0px 100px;
+	padding: 40px 75px 43px 75px;
+	left: 0;
+	right: 0;
+	background: #000000;
+	color: #FFFFFF;
+	opacity: 0.80;
+	filter: alpha(opacity=90);
+}
+.about-banner a {
+	color: #A9A9A9;
+}
+.top-zero {
+	top: 0;
+}
+
+/* Styles for Review page */
+.reviews-banner {
+	position:relative;
+	margin: 100px 100px 100px 100px;
+	left: 0;
+	right: 0;
+	padding: 100px 75px 100px 75px;
+	background: #000000;
+	color: #FFFFFF;
+	opacity:0.80;
+	filter:alpha(opacity=90);
+}
+.rev-header {
+	font-size: 1.3em;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.rev-header > a img {
+	vertical-align: bottom;
+}
+.rev-header > a {
+	text-decoration: none;
+}
+.rev-text {
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+}
+.rev-writer {
+	text-align: right;
+	float: right;
+	color: #FF0000;
+}
+.rev-margin {
+	margin-bottom: 25px;
+}
+.col-yelp {
+	color: #bb0000;
+}
+
+/* Begin - Style elements for blog page */
+.body {
+	padding: 0;
+    margin: 0;
+}
+.body-blog {
+	font-size: 1em;
+	font-weight: normal;
+	font-family: Arial, sans-serif;
+	line-height: 1.2;
+	background: #FFFFFF;
+}
+.blog-content {
+	color: #666666;
+}
+.container {
+	display: flex;
+	justify-content: center;
+}
+.container-center {
+	width: 980px;
+	float:left;
+	display: inline-block;
+	margin-top: 40px;
+}
+
+/* Portrait Images */
+.img-P img {
+	float: left;
+	width: 980px;
+	height: auto;
+	border-bottom: 8px solid #FFFFFF;
+}
+/* Landscape Images */
+.img-L1 img {
+	width: 486px;
+	height: auto;
+	border-bottom: 8px solid #FFFFFF;
+	border-right: 4px solid #FFFFFF;
+	/* Display left to right */
+	float: left;
+	display: inline-block;
+}
+.img-L2 img {
+	width: 486px;
+	height: auto;
+	border-bottom: 8px solid #FFFFFF;
+	border-left: 4px solid #FFFFFF;
+	/* Display left to right */
+	float: left;
+	display: inline-block;
+}
+.blog-title {
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: #666666;
+}
+.blog-location {
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: #666666;
+}
+/* End - Style elements for blog page */
