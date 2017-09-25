@@ -1,5 +1,34 @@
+<?php
+
+$referer = $_SERVER['HTTP_REFERER'];
+$server_root = "http://".$_SERVER['SERVER_NAME']."/";
+$relative_path_from_root = str_replace($server_root, '', $referer);
+if ($relative_path_from_root == "contact.html") {
+	$footer_banner = '<div>TROJAN SHOOTER PHOTOGRAPHY</div>
+						<div>(313) 718-2786</div>
+						<div><a href="mailto:info@trojanshooter.com" target="_blank">info@trojanshooter.com</a></div>';
+}
+else if ($relative_path_from_root == "") {
+	$footer_banner = '<div>TROJAN SHOOTER PHOTOGRAPHY</div>';
+}
+?>
+
 <style>
 /* Footer Style */
+.footer-banner {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer-banner a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footer-banner a:hover {
+	color: #aaa;
+}
 .footer-box{
 	position: fixed;
 	font-family: Arial, sans-serif;
@@ -34,6 +63,9 @@
 
 <!-- Footer bar -->
 <div class="footer-box">
+    <div class="footer-banner">
+    	<?php print $footer_banner ?>
+    </div>
 	<h2>
 	<a href="/weddings/">Weddings</a> |
 	<a href="/cityhall/">City Hall</a> |

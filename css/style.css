@@ -1,25 +1,4 @@
-/* Style for home page */
-.info-banner {
-    position: fixed;
-    width: 100%;
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    background: #000000;
-    color: #FFFFFF;
-    text-align: center;
-    bottom: 30px;
-    left: 0%;
-    opacity: 0.8;
-}
-.info-banner a {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-.info-banner a:hover {
-	color: #aaa;
-}
-
-/* Styles for About page*/
+/* Styles for About page */
 .about-banner {
 	position: relative;
 	font-size: 1.1em;
