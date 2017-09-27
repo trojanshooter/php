@@ -5,7 +5,7 @@ $server_root = "http://".$_SERVER['SERVER_NAME']."/";
 $relative_path_from_root = str_replace($server_root, '', $referer);
 if ($relative_path_from_root == "contact.html") {
 	$footer_banner = '<div>TROJAN SHOOTER PHOTOGRAPHY</div>
-						<div>(313) 718-2786</div>
+						<div><a href="tel:1-313-718-2786">(313) 718-2786</a></div>
 						<div><a href="mailto:info@trojanshooter.com" target="_blank">info@trojanshooter.com</a></div>';
 }
 else if ($relative_path_from_root == "") {
